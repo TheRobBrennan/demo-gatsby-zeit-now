@@ -1,0 +1,11 @@
+type Query {
+  """
+  A sample query to verify that our GraphQL server is online.
+
+  It does not return an object; only a friendly greeting with the current time displayed.
+  """
+  hello: String!,
+}
+
+type Mutation {
+}

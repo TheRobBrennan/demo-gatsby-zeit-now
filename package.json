@@ -1,0 +1,53 @@
+{
+  "name": "demo-gatsby-zeit-now",
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "version": "0.0.0",
+  "description": "This repository will be used to explore ideas and development using Gatsby and ZEIT Now.",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.3",
+    "apollo-boost": "^0.4.7",
+    "apollo-server-micro": "^2.11.0",
+    "bcrypt": "^4.0.1",
+    "gatsby": "^2.19.32",
+    "gatsby-alias-imports": "^1.0.4",
+    "gatsby-plugin-manifest": "^2.2.44",
+    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^3.1.23",
+    "gatsby-plugin-sass": "^2.1.30",
+    "gatsby-source-graphql": "^2.1.34",
+    "isomorphic-fetch": "^2.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "node-sass": "^4.12.0",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-helmet": "^5.2.1",
+    "react-hook-form": "^5.1.3"
+  },
+  "scripts": {
+    "start": "npm run develop",
+    "develop": "gatsby develop -H 0.0.0.0",
+    "pre-deploy": "npm run clean && now dev",
+    "deploy": "now",
+    "deploy:prod": "now --prod",
+    "build": "npm run clean && gatsby build",
+    "serve": "gatsby serve",
+    "clean": "rimraf .cache public",
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"No tests have been written 😔\n\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0",
+    "rimraf": "^2.6.3"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/demo-gatsby-zeit-now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/demo-gatsby-zeit-now/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/demo-gatsby-zeit-now#readme",
+  "keywords": []
+}
